@@ -98,3 +98,16 @@ h3{
     top: -1px;
 }
 
+.menu-carousel-class .carousel-item{
+    min-height: 600px;
+}
+
+.menu-carousel-class .bgslide{
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
