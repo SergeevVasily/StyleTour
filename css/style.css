@@ -1,0 +1,64 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+    background: #ececec;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    min-width: 320px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h3{
+    font-size: 24px;
+    font-weight:700;
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+.btn-red{
+    background-color: #d51e08;
+    color: white;
+}
+
+.btn-red:hover{
+    background-color: #ec4835;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/*====================================HEADER=================================================*/
+
+.menu-top .navbar{
+    margin-bottom: 0;
+    background: #fff;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+#navbarSupportedContent > ul > li > a{
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background .3s;
+}
