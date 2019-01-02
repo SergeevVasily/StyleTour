@@ -20,24 +20,23 @@ h3{
 	.menu-top .navbar-nav{
         float: none!important;
     }
-    .menu-top .navbar .navbar-collapse .navbar-right> li{
-        margin-left: auto;
-    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .menu-top .navbar .navbar-collapse .navbar-right> li{
-        margin-left: 45px;
-        margin-right: auto;
-    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.menu-top .navbar .navbar-collapse .navbar-nav> li > a:hover{
-        background: #eee;
+        background: #eee; !important;
     }
+    .menu-top .container,
+    .menu-top .navbar-collapse{
+         padding-left: 15px;
+     }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -69,8 +68,7 @@ h3{
     transition: background .9s;
 }
 #navbarSupportedContent > ul{
-    margin-left: 45px;
-    margin-right: 45px;
+
 }
 #navbarSupportedContent > ul > li > a:hover{
     text-decoration: underline;
@@ -100,6 +98,3 @@ h3{
     top: -1px;
 }
 
-.menu-top .navbar-nav .navbar-right> ul> li> a{
-    margin-left: 45px;
-}
