@@ -17,17 +17,27 @@ h3{
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
+	.menu-top .navbar-nav{
+        float: none!important;
+    }
+    .menu-top .navbar .navbar-collapse .navbar-right> li{
+        margin-left: auto;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+    .menu-top .navbar .navbar-collapse .navbar-right> li{
+        margin-left: 45px;
+        margin-right: auto;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+	.menu-top .navbar .navbar-collapse .navbar-nav> li > a:hover{
+        background: #eee;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -56,9 +66,11 @@ h3{
     color: #000;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
     transition: background .9s;
+}
+#navbarSupportedContent > ul{
+    margin-left: 45px;
+    margin-right: 45px;
 }
 #navbarSupportedContent > ul > li > a:hover{
     text-decoration: underline;
@@ -77,4 +89,17 @@ h3{
     background-color: #ec4835;
     text-decoration: none;
     opacity: unset;
+}
+#navbarSupportedContent > ul > li > a>.cart{
+    margin-right: 10px;
+    font-size: 17px;
+}
+.flag{
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.menu-top .navbar-nav .navbar-right> ul> li> a{
+    margin-left: 45px;
 }
