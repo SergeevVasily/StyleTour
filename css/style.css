@@ -24,6 +24,17 @@ h3{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .menu-carousel-class .carousel-caption{
+        left: 20%;
+    }
+    .menu-carousel-class .carousel-caption h1{
+        font-size: 40px;
+    }
+
+    .menu-carousel-class .carousel-caption h3{
+        font-size: 22px;
+    }
+
 
 }
 
@@ -36,12 +47,24 @@ h3{
     .menu-top .navbar-collapse{
          padding-left: 15px;
      }
+    .menu-carousel-class .carousel-caption h1{
+        font-size: 40px;
+    }
 
+    .menu-carousel-class .carousel-caption h3{
+        font-size: 22px;
+    }
+    .menu-carousel-class .carousel-caption .btn-red{
+        padding: 15px 20px;
+        font-size: 16px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .menu-carousel-class .carousel-caption .btn-red{
+        font-size: 14px;
+    }
 }
 
 .btn-red{
@@ -110,4 +133,51 @@ h3{
     height: 100%;
     width: 100%;
     background-size: cover;
+}
+
+.carousel.fade{
+    opacity: 1;
+}
+
+.carousel.fade .carousel-item{
+    opacity: 0;
+    transition: opacity .5s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+.carousel.fade .carousel-item.active{
+    opacity: 1;
+    position: relative;
+}
+.carousel-caption{
+    top: 170px;
+    left: 0;
+}
+.carousel-caption h1{
+     font-weight: 700;
+     font-size: 48px;
+ }
+
+.carousel-caption h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.carousel-caption .btn-red{
+    padding: 20px 30px;
+    border-radius: 3px;
+    color: white;
+    font-size: 24px;
+}
+.carousel-caption .btn-red:hover{
+    text-decoration: none;
+}
+
+.menu-carousel-class .container{
+    position: relative;
 }
