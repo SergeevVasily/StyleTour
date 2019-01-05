@@ -42,6 +42,16 @@ h3{
         border-right: none;
 
     }
+    .product{
+        margin-bottom: 10px;
+    }
+    .content{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .products-row{
+        margin: 20px 0;
+    }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -428,7 +438,15 @@ position: absolute;
 }
 
 .product-sale{
-
+position: absolute;
+    border: 1px solid gray;
+    left: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
 }
 
 .product-img{
@@ -470,4 +488,13 @@ position: absolute;
     left: 0;
     text-align: center;
     width: 100%;
+}
+
+.products-row{
+    margin-bottom: 40px;
+}
+
+.banner-row {
+    margin-bottom: 30px;
+   text-align: center;
 }
