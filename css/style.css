@@ -281,7 +281,7 @@ position: absolute;
     padding: 50px 0;
     border-top: 1px solid #cfcfcf;
     border-bottom: 3px solid #dadada;
-    margin-bottom: 50px;
+
 }
 .main-slogan h1{
     font-size: 30px;
@@ -329,6 +329,7 @@ position: absolute;
 .row .banner{
     background: #fff;
     margin-bottom: 40px;
+
 }
 .row .banner img{
     margin-bottom: 35px;
@@ -499,7 +500,7 @@ position: absolute;
 
 .banner-row {
     margin-bottom: 30px;
-   text-align: center;
+
 }
 
 .banner-row img{
