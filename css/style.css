@@ -81,6 +81,7 @@ h3{
         padding-left: 0px;
         padding-right: 0px;
     }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -544,4 +545,41 @@ position: absolute;
 
 .bottom-content .form-inline .btn:hover{
     background: #d96340;
+}
+
+.footer-menu{
+    background: #343434;
+    padding: 30px 0;
+}
+
+.footer-menu h5{
+    color: #c8c8c8;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu ul li a{
+    color: #c8c8c8;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.footer-copyright{
+    padding: 20px 0;
+    background: #fff;
+}
+
+.social-icons img{
+    margin-bottom: 3px;
+    display: inline;
+}
+
+.pay{
+    text-align: left;
 }
